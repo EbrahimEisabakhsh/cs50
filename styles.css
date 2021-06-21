@@ -1,0 +1,78 @@
+	
+	.centered {
+	   text-align: center;
+	}
+	#comp {
+	  font-family: monspace  ;
+	  color :white;
+	  font-size: 75px;
+	}
+	.sub-title	{
+	   font-family: ;
+	   color: olive;
+	}
+	nav {
+	   background-color:#145A32
+	  
+	}
+	body {
+      background-image: url(jpg/elec2.jpg);
+    }
+    h3,footer,h2 ,p{
+	  color :white;	
+	}
+	h2 { 
+	 color: pink;
+	}
+	footer {
+	text-align: center;
+	 color : yellow;
+	}
+   .fade-in-text {
+   display: inline-block;
+ 
+  animation: fadeIn linear 4s;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+{
+-webkit-transform: rotate(20deg) skewY(20deg); /Chrome, Safari, Opera/
+-moz-transform: rotate(20deg) skewY(20deg); /Firefox/
+-ms-transform: rotate(20deg) skewY(20deg); / Internet Explorer /
+}
+img {
+   border-radius: 15px;
+   border: 1px solid black
+   filter :drop-shadow(10px 14px 10px white)
+}
+div.gallery {
+  margin: 12px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+
